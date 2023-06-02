@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "0.29.7",
+    "@vue/test-utils": "2.3.2",
+    "jsdom": "21.1.1",
+    "nuxt": "^3.3.2",
+    "unplugin-auto-import": "0.15.2",
+    "vitest": "0.29.7"
+  }
+}
